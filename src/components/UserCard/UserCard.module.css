@@ -1,0 +1,53 @@
+.userCard {
+  background: var(--card-2);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  min-height: 116px;
+}
+
+.avatarWrap {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid rgba(4, 2, 2, 0.2);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.userMeta {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.userName {
+  font-weight: 700;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.userEmail {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+  word-break: break-word;
+}
+
+.userUsername {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
