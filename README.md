@@ -4,6 +4,8 @@ User catalog page with name search, pagination, and user cards.
 
 Data is loaded from the public DummyJSON API: [DummyJSON - Users](https://dummyjson.com/docs/users).
 
+**Live preview:** https://user-catalog-production.up.railway.app/
+
 ## Run
 
 1. Install dependencies:
